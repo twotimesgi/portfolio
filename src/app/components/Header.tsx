@@ -11,7 +11,7 @@ const Header = () => {
             
             <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden">
 About            </h2>
-                <p className="mt-4 sm:text-xl text-sm leading-tight px-6 ">
+                <p className="mt-4 sm:text-xl text-md leading-tight px-6 ">
                 Since writing my first line of code at 12, I&apos;ve been hooked on the sheer thrill of building something from nothing. What started as simple curiosity quickly evolved into an obsession with turning ideas into reality.
                 </p>
             </div>
