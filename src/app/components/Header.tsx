@@ -4,7 +4,7 @@ const Header = () => {
         <header className="fade-up sm:fade-up lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
                 {/* <Image src={Profile} alt="Luigi Bardella Gerbi" width={200} height={200} className="border-[3px]" /> */}
-            <h1 className="px-6 pt-6 text-4xl font-bold tracking-tight text-transparent bg-gradient-to-r from-slate-800 to-slate-500 bg-clip-text sm:text-5xl ">
+            <h1 className="px-6 pt-6 text-4xl font-bold tracking-tight text-transparent bg-gradient-to-r from-slate-800 to-slate-500 bg-clip-text sm:text-5xl pb-5 ">
             Luigi Bardella Gerbi
 </h1>
 

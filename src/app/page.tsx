@@ -9,7 +9,7 @@ import useIsMobile from "./hooks/useIsMobile";
 export default function Home() {
   const isMobile = useIsMobile()
   return (<>
-    <div className="lg:flex lg:justify-between gap-5">
+    <div className="lg:flex lg:justify-between gap-32">
     
     {!isMobile && <Spotlight/>}
       <Header/>

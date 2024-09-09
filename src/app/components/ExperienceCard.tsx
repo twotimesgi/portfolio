@@ -9,8 +9,8 @@ interface ExperienceCardProps {
 
 const ExperienceCard = ({date, title, description, tags}: ExperienceCardProps) => {
     return (
-        <div className="hover:bg-white/20 hover:shadow-lg rounded-lg p-6 w-full transition-all group flex flex-col sm:gap-5 sm:flex-row">
-        <div className="text-slate-400 text-sm w-[100px] pt-1 text-nowrap  justify-start flex sm:justify-center shrink-0">
+        <div className=" hover:bg-white/20 hover:shadow-lg rounded-lg p-6 w-full transition-all group">
+        <div className="text-slate-400 text-sm w-[100px] pt-1 text-nowrap ">
           {date}
         </div>
       <div>

@@ -5,7 +5,7 @@ import GenoaES from "./GenoaES";
 import Hackathons from "./Hackathons";
 const Content = () => {
     return (
-        <main className="fade-up sm:fade-left pt-5 sm:pt-24 lg:w-1/2 lg:py-24 text-sm ">
+        <main className="ffade-left pt-5 sm:pt-24 lg:w-1/2 lg:py-24 text-sm ">
             {/* <Bio/> */}
             <WorkExperience/>
             <Projects/>
