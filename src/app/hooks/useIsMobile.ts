@@ -1,4 +1,3 @@
-import { useState, useEffect, use } from 'react';
 import { headers } from "next/headers";
 
 const useIsMobile = () => {
