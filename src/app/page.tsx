@@ -2,7 +2,7 @@
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Spotlight from "./components/Spotlight";
-import useIsMobile from "./hooks/useMousePosition copy";
+import useIsMobile from "./hooks/useIsMobile";
 
 
 
