@@ -1,4 +1,3 @@
-import Bio from "./Bio";
 import SiliconValley from "./SiliconValley";
 import Projects from "./Projects";
 import WorkExperience from "./WorkExperience";

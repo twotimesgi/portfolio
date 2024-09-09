@@ -9,7 +9,7 @@ const projects = [
   {
     title: "This portfolio",
     image: Portfolio,
-    description: "In this project, I implemented the K-Nearest Neighbors (KNN) algorithm from scratch using Python. Then, trained the model on a dataset containing Pokémon statistics to predict whether a Pokémon is legendary or not based on its attributes.",
+    description: "This is a modern and responsive portfolio website designed to showcase projects, skills, and experiences in a clean, user-friendly layout.",
     tags: ["Tailwind", "Next.js", "TypeScript", "React"],
     link: "https://github.com/twotimesgi/KNN",
   },
@@ -32,9 +32,9 @@ const projects = [
 const Projects = () => {
     return (
         <section aria-label="Work experience" className="scroll-mt-16 lg:scroll-mt-24 mb-5">
-             <h2 className="font-bold ml-5 text-xl tracking-tight text-slate-700 sm:text-2xl mb-5">
+             <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20   w-screen px-6 py-4 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
                 Projects
-            </h2> 
+            </h2>
        
             {projects.map((item, index) => (
                 <ProjectCard key={index} image={item.image as StaticImport}title={item.title} description={item.description} tags={item.tags} link={item.link}/>

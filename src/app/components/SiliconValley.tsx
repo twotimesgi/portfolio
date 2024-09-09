@@ -3,9 +3,9 @@ import Tesla from '../public/tesla.webp';
 const SiliconValley = () => {
     return (
         <section aria-label="Work experience" className="scroll-mt-16 mb-5 lg:scroll-mt-24">
-             <h2 className="ml-5 text-xl font-bold tracking-tight text-slate-700 sm:text-2xl">
-                My Experience In Silicon Valley 
-            </h2> 
+             <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20   w-screen px-6 py-4 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+               Silicon Valley
+            </h2>
             <div className="p-5">
                 <p className="mb-4">
                 In the summer of 2023, I was selected for both the Silicon Valley Study Tour and the Silicon Valley Fellowship. During this one-month bootcamp, I gained exclusive access to top-tier tech companies and an immersive look into the Silicon Valley startup ecosystem.
