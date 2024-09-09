@@ -1,4 +1,3 @@
-import ExperienceCard from "./ExperienceCard";
 import ProjectCard from "./ProjectCard";
 import SlackClone from "../public/slack-clone.png"
 import Portfolio from "../public/portfolio.png"
