@@ -1,6 +1,4 @@
-import { Download, Github, Instagram, Linkedin, MailIcon } from "lucide-react";
-import Image from "next/image";
-import Profile from "../public/image.png";
+import {  Github, Instagram, Linkedin } from "lucide-react";
 const Header = () => {
     return (
         <header className="fade-up sm:fade-up lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
