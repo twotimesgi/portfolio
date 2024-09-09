@@ -12,6 +12,7 @@ const Content = () => {
             <GenoaES/>
             <SiliconValley/>
             <Hackathons/>
+            {/* <p>Designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel.  </p>*/}
         </main>
     );
 }
