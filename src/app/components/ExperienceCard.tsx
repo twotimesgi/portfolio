@@ -5,7 +5,6 @@ interface ExperienceCardProps {
     title: string;
     description: string;
     tags: string[];
-    links: JSX.Element[];
     }
 
 const ExperienceCard = ({date, title, description, tags}: ExperienceCardProps) => {
