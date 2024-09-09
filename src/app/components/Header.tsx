@@ -9,14 +9,14 @@ const Header = () => {
                 <h1 className="px-6 pt-6 text-5xl font-bold tracking-tighter text-transparent bg-gradient-to-r from-slate-800 to-slate-500 bg-clip-text sm:text-5xl pb-5 ">
                     Luigi Bardella Gerbi
                 </h1>
-                <Image src={Profile} alt="Luigi Bardella Gerbi"  width={200} height={200} className="m-6" /> 
+                <Image src={Profile} alt="Luigi Bardella Gerbi"  width={150} height={150} className="p-6 w-full sm:w-auto" /> 
 
 
                 <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl  uppercase px-6 py-4 hidden sm:block">
                     About             </h2>
                 <h2 className="font-bold text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden">
                     About            </h2>
-                <p className="sm:mt-4 sm:text-xl text-md leading-tight px-6 mb-4 mt-5 ">
+                <p className="sm:mt-4 text-md leading-tight px-6 mb-4 mt-5 ">
                     Since writing my first line of code at 12, I&apos;ve been hooked on the sheer thrill of building something from nothing. What started as simple curiosity quickly evolved into an obsession with turning ideas into reality.
                 </p>
             </div>
