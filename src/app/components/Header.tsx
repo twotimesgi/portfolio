@@ -1,7 +1,7 @@
 import { Github, Instagram, Linkedin } from "lucide-react";
 const Header = () => {
     return (
-        <header className="fade-up sm:fade-up lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+        <header className="fade-left sm:fade-up lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
                 {/* <Image src={Profile} alt="Luigi Bardella Gerbi" width={200} height={200} className="border-[3px]" /> */}
 
