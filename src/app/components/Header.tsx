@@ -10,9 +10,9 @@ const Header = () => {
 </h1>
 
         
-        
+{/*         
             <h2 className="font-bold mt-14 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden">
-            About             </h2>
+            About             </h2> */}
                 <p className="sm:mt-4 sm:text-xl text-md leading-tight px-6 mb-4 mt-5 ">
                 Since writing my first line of code at 12, I&apos;ve been hooked on the sheer thrill of building something from nothing. What started as simple curiosity quickly evolved into an obsession with turning ideas into reality.
                 </p>
