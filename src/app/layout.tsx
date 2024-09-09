@@ -20,7 +20,7 @@ export default function RootLayout({
    
     <html lang="en">
       <body
-        className={`${roboto.className} ${spaceGrotesk.variable} antialiased lg:mx-42 md:mx-40 sm:mx-36 xs:mx-6 text-slate-700 bg-custom-gradient leading-normal selection:bg-slate-700 selection:text-slate-300
+        className={`${roboto.className} ${spaceGrotesk.variable} antialiased lg:mx-42 md:mx-36 sm:mx-36 xs:mx-6 text-slate-700 bg-custom-gradient leading-normal selection:bg-slate-700 selection:text-slate-300
         `}
       >
         {children}
