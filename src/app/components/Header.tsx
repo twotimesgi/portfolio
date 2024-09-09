@@ -7,9 +7,10 @@ const Header = () => {
             <h1 className="px-6 pt-6 text-4xl font-bold tracking-tight text-transparent bg-gradient-to-r from-slate-800 to-slate-500 bg-clip-text sm:text-5xl ">
             Luigi Bardella Gerbi
 </h1>
-<h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-            About
-            </h2>
+
+            
+            <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden">
+About            </h2>
                 <p className="mt-4 sm:text-xl text-sm leading-tight px-6 ">
                 Since writing my first line of code at 12, I&apos;ve been hooked on the sheer thrill of building something from nothing. What started as simple curiosity quickly evolved into an obsession with turning ideas into reality.
                 </p>

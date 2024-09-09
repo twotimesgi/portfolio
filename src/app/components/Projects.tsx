@@ -39,9 +39,11 @@ interface ProjectCardProps {
 const Projects = () => {
     return (
         <section aria-label="Work experience" className="scroll-mt-16 lg:scroll-mt-24 mb-5">
-             <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20   w-screen px-6 py-4 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-                Projects
-            </h2>
+           
+           <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl  uppercase px-5 py-4 hidden sm:block">
+Projects            </h2>
+            <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden">
+            Projects            </h2>
        
             {projects.map((item, index) => (
                 <ProjectCard key={index} image={item.image as StaticImport}title={item.title} description={item.description} tags={item.tags} link={item.link}/>
