@@ -5,7 +5,7 @@ const SiliconValley = () => {
         <section aria-label="Work experience" className="scroll-mt-16 mb-5 lg:scroll-mt-24 px-1">
              <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl  uppercase px-6 py-4 hidden sm:block">
 Silicon Valley            </h2>
-            <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden">
+            <h2 className="font-bold mt-20 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden">
 Silicon Valley            </h2>
 <div className="px-6 mb-4 mt-5">
 <p className="mb-4">
