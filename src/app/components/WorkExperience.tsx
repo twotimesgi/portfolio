@@ -1,8 +1,14 @@
 import ExperienceCard from "./ExperienceCard";
 
 
+interface ExperienceCardProps {
+  date: string;
+  title: string;
+  description: string;
+  tags: string[];
+  }
 
-const experiences = [
+const experiences : ExperienceCardProps[] = [
     {
         title: "Software Engineer · Quince",
         date: "2023 - 2024",
