@@ -9,7 +9,7 @@ interface ExperienceCardProps {
 
 const ExperienceCard = ({date, title, description, tags}: ExperienceCardProps) => {
     return (
-        <div className=" hover:bg-white/20 hover:shadow-lg rounded-lg p-6 w-full transition-all group">
+        <div className=" hover:bg-white/20 hover:shadow-lg rounded-lg px-6 sm:py-6 mb-6 w-full transition-all group ">
         <div className="text-slate-400 text-sm w-[100px] pt-1 text-nowrap ">
           {date}
         </div>

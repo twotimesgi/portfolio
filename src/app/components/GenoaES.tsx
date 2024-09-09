@@ -5,11 +5,11 @@ const GenoaES = () => {
         <section aria-label="Work experience" className="scroll-mt-16 mb-5 lg:scroll-mt-24">
             
                       
-            <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl  uppercase px-5 py-4 hidden sm:block">
+            <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl  uppercase px-6 py-4 hidden sm:block">
 GenoaES            </h2>
             <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden">
-            GenoaES            </h2>
-            <div className="p-5">
+GenoaES            </h2>
+            <div className="px-6 mb-4">
                 <p className="mb-4">
                 This groundbreaking collaboration between the University of Genoa and Georgetown University in Washington, DC, allowed me to dive into full-time startup development while still pursuing my education.
                 </p>

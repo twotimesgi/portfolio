@@ -12,7 +12,7 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ image, title, description, tags, link }: ProjectCardProps) => {
   return (
-    <div className="hover:bg-white/20 hover:shadow-lg rounded-lg w-full transition-all group ">
+    <div className="hover:bg-white/20 hover:shadow-lg rounded-lg w-full transition-all group sm:px-6 sm:py-6 mb-6">
       <a href={link} className="p-6 flex flex-col sm:gap-5 sm:flex-row gap-2">
       <div className="text-slate-400 sm:w-[150px] w-full pt-1 text-nowrap shrink-0 ">
         <Image src={image} className="rounded-md border-[3px] border-slate-300 group-hover:border-slate-500 transition-all group-hover:scale-105" width={300} alt={`${title} Screenshot`} />
