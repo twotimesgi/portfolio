@@ -11,7 +11,7 @@ const Header = () => {
             About
             </h2>
                 <p className="mt-4 sm:text-xl text-sm leading-tight px-6 ">
-                Since writing my first line of code at 12, I've been hooked on the sheer thrill of building something from nothing. What started as simple curiosity quickly evolved into an obsession with turning ideas into reality.
+                Since writing my first line of code at 12, I&apos;ve been hooked on the sheer thrill of building something from nothing. What started as simple curiosity quickly evolved into an obsession with turning ideas into reality.
                 </p>
             </div>
             <ul className="ml-1 mt-8 flex items-center px-6">
