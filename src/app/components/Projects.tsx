@@ -11,7 +11,7 @@ const projects = [
     image: Portfolio,
     description: "This is a modern and responsive portfolio website designed to showcase projects, skills, and experiences in a clean, user-friendly layout.",
     tags: ["Tailwind", "Next.js", "TypeScript", "React"],
-    link: "https://github.com/twotimesgi/KNN",
+    link: "https://github.com/twotimesgi/portfolio",
   },
   {
     title: "Slack Clone",
