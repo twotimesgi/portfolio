@@ -5,7 +5,7 @@ import Portfolio from "../public/portfolio.png"
 import knn from "../public/knn.png"
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
-const projects = [
+const projects : ProjectCardProps[] = [
   {
     title: "This portfolio",
     image: Portfolio,
@@ -28,6 +28,14 @@ const projects = [
     link: "https://github.com/twotimesgi/KNN",
   }
 ];
+
+interface ProjectCardProps {
+  image: StaticImport;
+  title: string;
+  description: string;
+  tags: string[];
+  link: string;
+}
 
 const Projects = () => {
     return (
