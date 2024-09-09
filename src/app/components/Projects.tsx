@@ -41,8 +41,8 @@ const Projects = () => {
         <section aria-label="Work experience" className="scroll-mt-16 lg:scroll-mt-24 mb-5">
            
            <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl  uppercase px-6 py-4 hidden sm:block">
-Projects            </h2>
-            <h2 className="font-bold mt-20 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden">
+Projects          </h2>
+            <h2 className="font-bold mt-20 text-xl tracking-tight text-slate-700 sm:text-2xl uppercase sticky top-0 z-20 w-screen px-6 py-4 backdrop-blur sm:hidden mb-5">
 Projects            </h2>
             {projects.map((item, index) => (
                 <ProjectCard key={index} image={item.image as StaticImport}title={item.title} description={item.description} tags={item.tags} link={item.link}/>
