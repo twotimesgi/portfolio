@@ -9,7 +9,7 @@ const Header = () => {
                 <h1 className="px-6 pt-6 text-5xl font-bold tracking-tighter text-transparent bg-gradient-to-r from-slate-800 to-slate-500 bg-clip-text sm:text-5xl pb-5 ">
                     Luigi Bardella Gerbi
                 </h1>
-                <Image src={Profile} alt="Luigi Bardella Gerbi"  width={600} height={600} className="p-6 w-full sm:w-auto " /> 
+                <Image src={Profile} alt="Luigi Bardella Gerbi"  width={300} height={300} className="p-6 w-full sm:w-[300px] " /> 
 
 
                 <h2 className="font-bold mt-5 text-xl tracking-tight text-slate-700 sm:text-2xl  uppercase px-6 py-4 hidden sm:block">
