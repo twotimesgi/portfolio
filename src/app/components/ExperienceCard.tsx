@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import Tag from "./Tag";
 
 interface ExperienceCardProps {

@@ -3,6 +3,7 @@ import SlackClone from "../public/slack-clone.png"
 import Portfolio from "../public/portfolio.png"
 import knn from "../public/knn.png"
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import { ArrowUpRight } from "lucide-react";
 
 const projects : ProjectCardProps[] = [
   {
@@ -47,6 +48,9 @@ Projects            </h2>
             {projects.map((item, index) => (
                 <ProjectCard key={index} image={item.image as StaticImport}title={item.title} description={item.description} tags={item.tags} link={item.link}/>
             ))}
+            <a href="https://github.com/twotimesgi" target="_blank" className="h4 px-6 hover:text-orange-500 text-slate-700 text-lg font-semibold transition mb-14 block group">
+            View Github <ArrowUpRight strokeWidth="2" className="size-4  inline-block mb-1 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
+          </a>
         </section>
         
     );
