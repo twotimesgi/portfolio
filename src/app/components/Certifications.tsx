@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Washington from '../public/dc.jpg';
 const Certifications = () => {
     return (
         <section aria-label="Certifications" className="scroll-mt-16 mb-5 lg:scroll-mt-24">
