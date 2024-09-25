@@ -43,7 +43,7 @@ Work Experience            </h2>
             {experiences.map((item, index) => (
                 <ExperienceCard key={index}date={item.date} title={item.title} description={item.description} tags={item.tags}/>
             ))}
-           <a target="_blank" href="https://drive.google.com/file/d/1RYNyPu9R6ND7_JgiJY-8J2UZjk8NwWn_/view?usp=sharing" className="h4 px-6 hover:text-orange-500 text-slate-700 text-lg font-semibold transition mb-14 block group">
+           <a target="_blank" href="https://docs.google.com/document/d/1aOAnp1YPYzARTNJJNLYgR6dlXuxfbOGFZM2p71IUphw/pub" className="h4 px-6 hover:text-orange-500 text-slate-700 text-lg font-semibold transition mb-14 block group">
             View Full Résumé <ArrowUpRight strokeWidth="2" className="size-4  inline-block mb-1 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
           </a>
         </section>
