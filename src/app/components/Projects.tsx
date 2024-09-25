@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import SlackClone from "../public/slack-clone.png"
 import Portfolio from "../public/portfolio.png"
 import knn from "../public/knn.png"
+import MarketPlace from "../public/marketplace.png"
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { ArrowUpRight } from "lucide-react";
 
@@ -26,6 +27,13 @@ const projects : ProjectCardProps[] = [
     tags: ["KNN", "Machine Learning", "Python", "Scikit-learn"],
     image: knn,
     link: "https://github.com/twotimesgi/KNN",
+  },
+  {
+    title: "Decentralized Marketplace (for Logyq Protocol)",
+    description: "A blockchain-powered decentralized marketplace, developed by me for Logyq Protocol in 10 days for the Venom Foundation hackathon, allows users to list, buy, sell, and make offers securely via smart contracts on the Venom blockchain. It's functional but not polished due to the tight timeline.",
+    tags: ["T-Solidity", "Chai", "Next.js", "Typescript"],
+    image: MarketPlace,
+    link: "https://github.com/twotimesgi/decentralized-marketplace-frontend",
   }
 ];
 
