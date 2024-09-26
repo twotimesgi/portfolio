@@ -11,6 +11,9 @@ const Certifications = () => {
             Certifications
             </h2>
 <div className="px-6 mb-4 mt-5">
+    <p className="mb-4">    
+    These certifications demonstrate my commitment to continuous learning and professional development in key areas of technology and finance.
+    </p>
                 <ul className="mb-4 list-disc pl-4">
                     <li>AWS Certified Cloud Practitioner (CLF-C02)</li>
                     <li>Bocconi University Private Equity and Venture Capital</li>
