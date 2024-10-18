@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import SlackClone from "../public/slack-clone.png"
 import Portfolio from "../public/portfolio.png"
+import OnlineCoursePlatfrom from "../public/online-course-platform.png"
 import knn from "../public/knn.png"
 import MarketPlace from "../public/marketplace.png"
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
@@ -8,7 +9,14 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects : ProjectCardProps[] = [
   {
-    title: "This portfolio",
+    title: "Online Course Platform",
+    image: OnlineCoursePlatfrom,
+    description: "Students can browse, filter, and purchase courses, track progress, and mark chapters as completed, while teachers have the ability to create and manage courses with ease, including features like chapter reordering via drag-and-drop and rich content creation.",
+    tags: [ "Shadcn", "Tailwind", "Next.js", "TypeScript", "React", "MySQL", "Prisma", "Clerk", "Stripe"],
+    link: "https://github.com/twotimesgi/online-course-platform",
+  },
+  {
+    title: "This Portfolio",
     image: Portfolio,
     description: "This is a modern and responsive portfolio website designed to showcase projects, skills, and experiences in a clean, user-friendly layout.",
     tags: ["Tailwind", "Next.js", "TypeScript", "React"],
@@ -19,7 +27,7 @@ const projects : ProjectCardProps[] = [
     link: "https://github.com/twotimesgi/slack-clone",
     image: SlackClone,
     description: "An end-to-end fullstack, real-time Slack clone with workspaces, channels, 1:1 conversations, threads, reactions, and member roles. This project is built with modern web technologies and provides a fully functional communication platform.",
-    tags: ["Convex", "NextAuth", "TypeScript", "Next.js", "Tailwind"],
+    tags: ["Convex", "NextAuth", "TypeScript", "Next.js", "Tailwind", "Shadcn"],
   },
   {
     title: "KNN",
