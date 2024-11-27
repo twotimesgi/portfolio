@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import SlackClone from "../public/slack-clone.png"
 import Portfolio from "../public/portfolio.png"
+import Ecom from "../public/ecom.png"
 import OnlineCoursePlatfrom from "../public/online-course-platform.png"
 import knn from "../public/knn.png"
 import MarketPlace from "../public/marketplace.png"
@@ -16,6 +17,13 @@ const projects : ProjectCardProps[] = [
     link: "https://github.com/twotimesgi/online-course-platform",
   },
   {
+    title: "Slack Clone",
+    link: "https://github.com/twotimesgi/slack-clone",
+    image: SlackClone,
+    description: "An end-to-end fullstack, real-time Slack clone with workspaces, channels, 1:1 conversations, threads, reactions, and member roles. This project is built with modern web technologies and provides a fully functional communication platform.",
+    tags: ["Convex", "NextAuth", "TypeScript", "Next.js", "Tailwind", "Shadcn"],
+  },
+  {
     title: "This Portfolio",
     image: Portfolio,
     description: "This is a modern and responsive portfolio website designed to showcase projects, skills, and experiences in a clean, user-friendly layout.",
@@ -23,11 +31,11 @@ const projects : ProjectCardProps[] = [
     link: "https://github.com/twotimesgi/portfolio",
   },
   {
-    title: "Slack Clone",
-    link: "https://github.com/twotimesgi/slack-clone",
-    image: SlackClone,
-    description: "An end-to-end fullstack, real-time Slack clone with workspaces, channels, 1:1 conversations, threads, reactions, and member roles. This project is built with modern web technologies and provides a fully functional communication platform.",
-    tags: ["Convex", "NextAuth", "TypeScript", "Next.js", "Tailwind", "Shadcn"],
+    title: "E-commerce",
+    image: Ecom,
+    description: "This project, created for a technical interview, is a foundational e-commerce system using Prisma, MySQL, and Next.js. It features product browsing, filtering, image upload, compression, category and attributes management.",
+    tags: [ "Shadcn", "Tailwind", "Next.js", "TypeScript", "React", "MySQL", "Prisma", "Motion"],
+    link: "https://github.com/twotimesgi/cardtrader-assignment",
   },
   {
     title: "KNN",
