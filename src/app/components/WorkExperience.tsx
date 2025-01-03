@@ -9,9 +9,15 @@ interface ExperienceCardProps {
   }
 
 const experiences : ExperienceCardProps[] = [
+  {
+    title: "Software Engineer • Solomei AI, Brunello Cuccinelli ",
+    date: "2025 - Present",
+    description: "Redefining web experiences by replacing traditional 'pages' and 'menus' with real-time content composition and organization, adapting seamlessly to user navigation.",
+    tags: ["TypeScript", "Next.js", "Python", "LLM", "AI"],
+  },
     {
         title: "Software Engineer · Quince",
-        date: "2023 - 2024",
+        date: "2024 - 2024",
         description: "During my Master's program at the University of Genoa and Georgetown University, I founded and developed Quince.party, a platform designed to help Latino families plan their dream quinceañera. I managed all operations, securing two paying customers and generating $65,000 in potential leads within just 10 days of launch.",
         tags: ["TypeScript", "Next.js", "Pandas", "Google Cloud"],
       },
