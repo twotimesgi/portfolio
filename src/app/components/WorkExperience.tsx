@@ -10,7 +10,7 @@ interface ExperienceCardProps {
 
 const experiences : ExperienceCardProps[] = [
   {
-    title: "Software Engineer • Solomei AI, Brunello Cuccinelli ",
+    title: "Software Engineer · Solomei AI, Brunello Cuccinelli",
     date: "2025 - Present",
     description: "Redefining web experiences by replacing traditional 'pages' and 'menus' with real-time content composition and organization, adapting seamlessly to user navigation.",
     tags: ["TypeScript", "Next.js", "Python", "LLM", "AI"],
